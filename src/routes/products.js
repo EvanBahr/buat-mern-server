@@ -5,7 +5,10 @@ const productsController = require("../controllers/products");
 // Create -> post
 router.post("/product", productsController.createProduct);
 // read -> get
-router.get("/product", productsController.getAllProducts);
+router.get("/", productsController.getAllProducts);
+router.get("/:table", productsController.getByTable);
+router.get("/:table/:id", productsController.getById);
+
 //
 // router.put("/product", (req, res, next) => {
 //   res.json([
