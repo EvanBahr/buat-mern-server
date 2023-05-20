@@ -1,0 +1,7 @@
+{
+  "names": [
+    { "id": 1, "name": "efan" },
+    { "id": 2, "name": "faqih" }
+  ],
+  "kelas": [1, 2, 3]
+}
